@@ -1,0 +1,9 @@
+.place
+  table
+    thead
+      tr
+        th Name
+    tbody
+      - @places.each do |place|
+        tr
+          td = place.name
