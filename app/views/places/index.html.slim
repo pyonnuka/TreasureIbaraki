@@ -3,7 +3,9 @@
     thead
       tr
         th Name
+        th Address
     tbody
       - @places.each do |place|
         tr
           td = place.name
+          td = place.address
